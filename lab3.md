@@ -16,7 +16,6 @@
 ## วิธีการทำการทดลอง 
   1. ทำการต่อสาย USB เข้ากับ ตัวแปลงเป็น Serial Port 
   2. ต่อ Adapter กับ Serial Port
-![S__12099601](https://user-images.githubusercontent.com/80879119/111989145-f5edbc80-8b43-11eb-85d0-5140d5e3fa98.jpg)
   3. หนีบหลอด LED ตามรูป
 ![S__12099603](https://user-images.githubusercontent.com/80879119/111989196-09992300-8b44-11eb-869a-acca201a06dd.jpg)
   4. นำ ESP_01 ต่อเข้ากับ Serial Port ของ Adapter
@@ -31,10 +30,8 @@
   9. ลองกดปุ่ม reset
 ![S__12099608](https://user-images.githubusercontent.com/80879119/111989866-e9b62f00-8b44-11eb-92d7-0a9542c6d172.jpg)
   10. ถอดบอร์ดออกจาก Serial Port ของ Adapter แล้วนำไปต่อกับ Serial Port ของ Relay
- ![S__12099609](https://user-images.githubusercontent.com/80879119/111990634-06069b80-8b46-11eb-9063-583dd6115614.jpg)
   11. พร้อมต่อไฟ 5 V เข้า Relay
- ![S__12099611](https://user-images.githubusercontent.com/80879119/111990670-13bc2100-8b46-11eb-9cc2-28b281f89e49.jpg)
-![S__12099612](https://user-images.githubusercontent.com/80879119/111990708-1dde1f80-8b46-11eb-8e3d-621b8c9cafbb.jpg)
+
 ## การบันทึกผลการทดลอง 
 ## อภิปรายผลการทดลอง 
 ## คำถามหลังการทดลอง 
