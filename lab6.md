@@ -6,6 +6,8 @@
   2. สายต่อ USB
   3. ตัวแปลง USB to Serial Port 
 ## ศึกษาข้อมูลเบื้องต้น 
+  * [ESP_01 PlatformIO](https://docs.platformio.org/en/latest/boards/espressif8266/esp01.html)
+  * [ตัวอย่างการทดลอง LAB 6](https://youtu.be/T26DVHePlTs)
 ## วิธีการทำการทดลอง 
   1. ทำการกำหนดชื่อ Wifi และ Password
   2. กำหนด IP Address ต่างๆ 
