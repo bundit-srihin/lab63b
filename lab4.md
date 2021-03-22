@@ -10,6 +10,8 @@
   5. หลอด LED
   6. เซนเซอร์แสง  
 ## ศึกษาข้อมูลเบื้องต้น 
+  * [ESP_01 PlatformIO](https://docs.platformio.org/en/latest/boards/espressif8266/esp01.html)
+  * [ตัวอย่างการทดลอง LAB 4](https://youtu.be/nFqoZT26U5k)
 ## วิธีการทำการทดลอง 
   1. ทำการต่อสาย USB เข้ากับ ตัวแปลงเป็น Serial Port 
   2. ต่อ Adapter กับ Serial Port
