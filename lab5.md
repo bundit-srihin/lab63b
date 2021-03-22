@@ -6,7 +6,9 @@
   1. บอร์ด ESP_01
   2. สายต่อ USB
   3. ตัวแปลง USB to Serial Port 
-## ศึกษาข้อมูลเบื้องต้น 
+## ศึกษาข้อมูลเบื้องต้น
+  * [ESP_01 PlatformIO](https://docs.platformio.org/en/latest/boards/espressif8266/esp01.html)
+  * [ตัวอย่างการทดลอง LAB 5](https://youtu.be/VX-QNQcO-b4)
 ## วิธีการทำการทดลอง 
   1. ทำการต่อสาย USB เข้ากับ ตัวแปลงเป็น Serial Port เพื่อต่อเข้ากับ ESP_01
   2. นำ ESP_01 ต่อเข้ากับ Serial Port
