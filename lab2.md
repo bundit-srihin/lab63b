@@ -15,9 +15,14 @@
   2. นำ ESP_01 ต่อเข้ากับ Serial Port
   3. เปิดโปรแกรมที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกเอาไว้ `cd examples` แล้ว `cd 02_Scan-Wifi`
   4. รันคำสั่ง `pio run -t upload`
+![S__12099594](https://user-images.githubusercontent.com/80879119/111988217-c8ecda00-8b42-11eb-9fb2-69a3315d0013.jpg)
   5. กดปุ่มดำค้างไว้แล้วกดปุ่ม Reset เพื่อให้ ESP_01 รับโปรแกรม
+![S__12099596](https://user-images.githubusercontent.com/80879119/111988264-dd30d700-8b42-11eb-9e62-d6fbf365755c.jpg)
   6. รันคำสั่ง `pio device monitor` เพื่อดูผลที่แสดงผลออกมา
+![S__12099597](https://user-images.githubusercontent.com/80879119/111988329-f46fc480-8b42-11eb-851c-d2fd02a292a3.jpg)
+![S__12099598](https://user-images.githubusercontent.com/80879119/111988393-081b2b00-8b43-11eb-9141-67f770ae1d66.jpg)
   7. ลองกดปุ่ม reset 
+![S__12099599](https://user-images.githubusercontent.com/80879119/111988397-09e4ee80-8b43-11eb-87c5-4ce2b275e26e.jpg)
 ## การบันทึกผลการทดลอง 
 ## อภิปรายผลการทดลอง 
 ## คำถามหลังการทดลอง 
