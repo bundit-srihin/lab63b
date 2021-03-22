@@ -14,8 +14,11 @@
   2. นำ ESP_01 ต่อเข้ากับ Serial Port
   3. เปิดโปรแกรมที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกเอาไว้ `cd examples` แล้ว `cd 05_Wifi-Web-Server`
   4. รันคำสั่ง `pio run -t upload`
+![S__12099626](https://user-images.githubusercontent.com/80879119/112000236-60a4f500-8b50-11eb-8e80-16b97d8bed54.jpg)
   5. กดปุ่มดำค้างไว้แล้วกดปุ่ม Reset เพื่อให้ ESP_01 รับโปรแกรม
+![S__12099628](https://user-images.githubusercontent.com/80879119/112000303-70bcd480-8b50-11eb-8e65-7603fdb7699d.jpg)
   6. ทำการเข้าเว็บเบาเชอร์ 
+![S__12099629](https://user-images.githubusercontent.com/80879119/112000348-7e725a00-8b50-11eb-91e4-054e9db6116f.jpg)
   7. รันคำสั่ง `pio device monitor` เพื่อดูผลที่แสดงผลออกมา
   8. ลองกดปุ่ม reset
   9. Copy IP Address เข้าใน เว็บเบาเซอร์ในการแสดงผล
