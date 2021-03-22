@@ -16,14 +16,25 @@
 ## วิธีการทำการทดลอง 
   1. ทำการต่อสาย USB เข้ากับ ตัวแปลงเป็น Serial Port 
   2. ต่อ Adapter กับ Serial Port
-  3. นำ ESP_01 ต่อเข้ากับ Serial Port ของ Adapter
-  4. เปิดโปรแกรมที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกเอาไว้ `cd examples` แล้ว `cd 03_Output-Port`
-  5. รันคำสั่ง `pio run -t upload`
-  6. กดปุ่มดำค้างไว้แล้วกดปุ่ม Reset เพื่อให้ ESP_01 รับโปรแกรม
-  7. รันคำสั่ง `pio device monitor` เพื่อดูผลที่แสดงผลออกมา
-  8. ลองกดปุ่ม reset
-  9. ถอดบอร์ดออกจาก Serial Port ของ Adapter แล้วนำไปต่อกับ Serial Port ของ Relay 
-  10. พร้อมต่อไฟ 5 V เข้า Relay  
+![S__12099601](https://user-images.githubusercontent.com/80879119/111989145-f5edbc80-8b43-11eb-85d0-5140d5e3fa98.jpg)
+  3. หนีบหลอด LED ตามรูป
+![S__12099603](https://user-images.githubusercontent.com/80879119/111989196-09992300-8b44-11eb-869a-acca201a06dd.jpg)
+  4. นำ ESP_01 ต่อเข้ากับ Serial Port ของ Adapter
+  5. เปิดโปรแกรมที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกเอาไว้ `cd examples` แล้ว `cd 03_Output-Port`
+  6. รันคำสั่ง `pio run -t upload`
+![S__12099604](https://user-images.githubusercontent.com/80879119/111989225-161d7b80-8b44-11eb-9581-24df450e09fe.jpg)
+  7. กดปุ่มดำค้างไว้แล้วกดปุ่ม Reset เพื่อให้ ESP_01 รับโปรแกรม
+![S__12099605](https://user-images.githubusercontent.com/80879119/111989634-9b089500-8b44-11eb-9523-b2f3efe3de5e.jpg)
+  8. รันคำสั่ง `pio device monitor` เพื่อดูผลที่แสดงผลออกมา
+![S__12099606](https://user-images.githubusercontent.com/80879119/111989700-b2478280-8b44-11eb-8abf-816b304c0566.jpg)
+![S__12099607](https://user-images.githubusercontent.com/80879119/111989734-bc698100-8b44-11eb-8204-3c02d6a73071.jpg)
+  9. ลองกดปุ่ม reset
+![S__12099608](https://user-images.githubusercontent.com/80879119/111989866-e9b62f00-8b44-11eb-92d7-0a9542c6d172.jpg)
+  10. ถอดบอร์ดออกจาก Serial Port ของ Adapter แล้วนำไปต่อกับ Serial Port ของ Relay
+ ![S__12099609](https://user-images.githubusercontent.com/80879119/111990634-06069b80-8b46-11eb-9063-583dd6115614.jpg)
+  11. พร้อมต่อไฟ 5 V เข้า Relay
+ ![S__12099611](https://user-images.githubusercontent.com/80879119/111990670-13bc2100-8b46-11eb-9cc2-28b281f89e49.jpg)
+![S__12099612](https://user-images.githubusercontent.com/80879119/111990708-1dde1f80-8b46-11eb-8e3d-621b8c9cafbb.jpg)
 ## การบันทึกผลการทดลอง 
 ## อภิปรายผลการทดลอง 
 ## คำถามหลังการทดลอง 
