@@ -8,7 +8,7 @@
 ## ศึกษาข้อมูลเบื้องต้น 
   * [ESP_01 PlatformIO](https://docs.platformio.org/en/latest/boards/espressif8266/esp01.html)
   * [ตัวอย่างการทดลอง LAB 6](https://youtu.be/T26DVHePlTs)
-  * [โปรแกรม 06](https://github.com/bundit-srihin/lab63b/tree/main/examples/06_Wifi-AP-Web-Server)
+  * [โปรแกรม 06](https://github.com/bundit-srihin/lab63b/blob/main/examples/06_Wifi-AP-Web-Server/src/main.cpp)
 ## วิธีการทำการทดลอง 
   1. ทำการกำหนดชื่อ Wifi และ Password
 ![S__12099631](https://user-images.githubusercontent.com/80879119/112002962-06596380-8b53-11eb-9ab6-823e75a89dc1.jpg)
