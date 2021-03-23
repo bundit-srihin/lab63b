@@ -14,7 +14,7 @@
   2. กำหนด IP Address ต่างๆ 
   3. ทำการต่อสาย USB เข้ากับ ตัวแปลงเป็น Serial Port เพื่อต่อเข้ากับ ESP_01
   4. นำ ESP_01 ต่อเข้ากับ Serial Port
-  5. เปิดโปรแกรมที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกเอาไว้ `cd examples` แล้ว `cd 06_Wifi-AP-Web-Server`
+  5. เปิดโปรแกรมที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกเอาไว้ `cd pattani` แล้ว `cd 06_Wifi-AP-Web-Server`
   6. รันคำสั่ง `pio run -t upload`
 ![S__12099633](https://user-images.githubusercontent.com/80879119/112003003-1113f880-8b53-11eb-87f8-2c4063b454fa.jpg)
   7. กดปุ่มดำค้างไว้แล้วกดปุ่ม Reset เพื่อให้ ESP_01 รับโปรแกรม
