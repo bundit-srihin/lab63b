@@ -17,7 +17,7 @@
   2. ต่อ Adapter กับ Serial Port
   3. นำ ESP_01 ต่อเข้ากับ Serial Port ของ Adapter
   4. ต่อ LED ที่ขาหนีบเส้นสีเหลือง และอีกขาที่เส้นดำ
-  5. เปิดโปรแกรมที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกเอาไว้ `cd examples` แล้ว `cd 04_Input-Port`
+  5. เปิดโปรแกรมที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกเอาไว้ `cd pattani` แล้ว `cd 04_Input-Port`
   6. รันคำสั่ง `pio run -t upload`
 ![S__12099614](https://user-images.githubusercontent.com/80879119/111993865-b1651f80-8b49-11eb-9623-d0fe4da0e445.jpg)
   7. กดปุ่มดำค้างไว้แล้วกดปุ่ม Reset เพื่อให้ ESP_01 รับโปรแกรม
