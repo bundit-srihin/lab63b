@@ -10,6 +10,7 @@
 ## ศึกษาข้อมูลเบื้องต้น
   * [ESP_01 PlatformIO](https://docs.platformio.org/en/latest/boards/espressif8266/esp01.html)
   * [ตัวอย่างการทดลอง LAB 2](https://youtu.be/yBjab0UNuB8)
+  * [โปรแกรม 02](https://github.com/bundit-srihin/lab63b/tree/main/examples/02_Scan-Wifi)
 ## วิธีการทำการทดลอง 
   1. ทำการต่อสาย USB เข้ากับ ตัวแปลงเป็น Serial Port เพื่อต่อเข้ากับ ESP_01
   2. นำ ESP_01 ต่อเข้ากับ Serial Port
