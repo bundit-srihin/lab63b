@@ -8,7 +8,7 @@
 ## ศึกษาข้อมูลเบื้องต้น
   * [ESP_01 PlatformIO](https://docs.platformio.org/en/latest/boards/espressif8266/esp01.html)
   * [ตัวอย่างการทดลอง LAB 1](https://youtu.be/NLIUsWLEpmg)
-  * [โปรแกรม 01](https://github.com/bundit-srihin/lab63b/tree/main/examples/01_Serial-Monitor)
+  * [โปรแกรม 01](https://github.com/bundit-srihin/lab63b/blob/main/examples/01_Serial-Monitor/src/main.cpp)
 ## วิธีการทำการทดลอง
   1. ทำการต่อสาย USB เข้ากับ ตัวแปลงเป็น Serial Port เพื่อต่อเข้ากับ ESP_01
   2. นำ ESP_01 ต่อเข้ากับ Serial Port
