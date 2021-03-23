@@ -13,7 +13,7 @@
   * [ESP_01 PlatformIO](https://docs.platformio.org/en/latest/boards/espressif8266/esp01.html)
   * [ตัวอย่างการทดลอง LAB 3 part 1](https://youtu.be/CCnN1WJsXQY)
   * [ตัวอย่างการทดลอง LAB 3 part 2](https://youtu.be/6JnhaUILGuw)
-  * [โปรแกรม 03](https://github.com/bundit-srihin/lab63b/tree/main/examples/03_Output-Port)
+  * [โปรแกรม 03](https://github.com/bundit-srihin/lab63b/blob/main/examples/03_Output-Port/src/main.cpp)
 ## วิธีการทำการทดลอง 
   1. ทำการต่อสาย USB เข้ากับ ตัวแปลงเป็น Serial Port 
   2. ต่อ Adapter กับ Serial Port
