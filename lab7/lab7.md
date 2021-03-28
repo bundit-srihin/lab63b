@@ -13,9 +13,21 @@
 ## ศึกษาข้อมูลเบื้องต้น
   * [ESP_01 PlatformIO](https://docs.platformio.org/en/latest/boards/espressif8266/esp01.html)
   * [คลิปอธิบายการทดลอง]()
-  * [โปรมแกรม 07]()
+  * [โปรมแกรม 07](https://github.com/bundit-srihin/lab63b/blob/main/lab7/src/main.cpp)
   * [ภาษาของการเขียนโปรแกรมใช้งานArduino Board](https://arduinothing.blogspot.com/2016/04/arduino-cc.html)
   * [Choompol Boonmee](https://github.com/choompol-boonmee/lab63b.git)
+  * [คำสั่ง ESP8266](https://links2004.github.io/Arduino/annotated.html)
 ## วิธีการทำการทดลอง
-  
+  1. ทำการดาวน์โหลดตัวโปรแกรม โดยใช้คำสั่ง `git clone` แล้วตามด้วย `https://github.com/bundit-srihin/lab63b.git`
+```
+git clone https://github.com/bundit-srihin/lab63b.git
+```
+  2. ทำการต่อสาย USB เข้ากับ ตัวแปลง USB to Serial Port
+  3. ทำการต่อตัว Adapter เข้ากับ Serial Port
+  4. ทำการต่อ ESP_01 เข้ากับ Serial Port ของ Adapter
+  5. เปิดโฟลเดอร์ที่ทำการในที่นี้คือ `cd lab63b` แล้วก็ `cd lab7`
+  6. แล้วทำการอัปโหลดโปรแกรมเข้าสู่ไมโครคอนโทรเลอร์ด้วยคำสั่ง `pio run -t upload`
+  7. เพื่อให้ทำการอัปโหลดได้ กด port 0 (ปุ่มดำ) ค้างไว้ แลัวกดปุ่ม reset
+  8. 
+
 ## อภิปรายการทดลอง 
