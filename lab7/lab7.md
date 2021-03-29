@@ -17,6 +17,7 @@
   * [ภาษาของการเขียนโปรแกรมใช้งานArduino Board](https://arduinothing.blogspot.com/2016/04/arduino-cc.html)
   * [Choompol Boonmee](https://github.com/choompol-boonmee/lab63b.git)
   * [คำสั่ง ESP8266](https://links2004.github.io/Arduino/annotated.html)
+  * [การควบคุมผ่านทาง Web Server](https://sites.google.com/site/eplearn/wifi/control_via_web_server)
 ## วิธีการทำการทดลอง
   1. ทำการดาวน์โหลดตัวโปรแกรม โดยใช้คำสั่ง `git clone` แล้วตามด้วย `https://github.com/bundit-srihin/lab63b.git`
 ```
@@ -31,8 +32,9 @@ git clone https://github.com/bundit-srihin/lab63b.git
   8. ทำการแสดงผลที่ไมโครคอนโทรเลอร์แสดงโดยใช้คำสั่ง `pio device monitor`
   9. ลองทำการกดปุ่ม reset 
   10. ทดสอบโดยการเข้า IP Adress ที่แสดงออกมา 
-  11. ลองต่อท้าย IP Adress นั้นด้วย /on , /off และ /on-off และสังเกตที่หลอด LED
+  11. ลองกดปุ่มที่มีให้ และสังเกตที่หลอด LED กับ URL
   12. ทำการ นำสายสีขาวที่ต่อออกมาจาก Adapter ต่อเข้าที่สายดำ แล้วทำการทดลอง 7-11 ใหม่อีกครั้ง
-  13. นำสายสีขาวออก แล้วกดปุ่มดำค้างแทนทำการมดลอง 7-11 ใหม่อีกครั้ง
+  13. นำสายสีขาวออก แล้วกดปุ่มดำค้างแทนทำการมดลอง 7-11 ใหม่อีกครั้ง 
+  14. ลองทำการเปลี่ยน HTML 
 
 ## อภิปรายการทดลอง 
