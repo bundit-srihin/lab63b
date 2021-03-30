@@ -59,7 +59,7 @@ void response(){
   myTEXT += HtmlCloseCenter;
   myTEXT += HtmlHtmlClose;
 	
-  server.send (200, "text/html", htmlRes);
+  server.send (200, "text/html", myTEXT);
 
 }
 
