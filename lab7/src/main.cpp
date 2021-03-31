@@ -48,7 +48,7 @@ void handleOn(){
 void handleOff(){
 	digitalWrite(2, LOW);
 	Serial.print("OFF");
-	myState = "<big>LED is now <b>ON</b></big><br/>\n";
+	myState = "<big>LED is now <b>OFF</b></big><br/>\n";
 	myButton = HtmlButton_OFF;
 	response();
 }
