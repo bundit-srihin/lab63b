@@ -149,19 +149,6 @@ void loop(){
 	server.handleClient();
 	
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
 ```
 ## วิธีการทำการทดลอง
   1. ทำการดาวน์โหลดตัวโปรแกรม โดยใช้คำสั่ง `git clone` แล้วตามด้วย `https://github.com/bundit-srihin/lab63b.git`
