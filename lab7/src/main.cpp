@@ -72,7 +72,7 @@ ESP8266WebServer server(80);
 
 int cnt = 0;
 
-void setup(){
+void setup(void){
         Serial.begin(115200);
 
         pinMode(0, INPUT);
