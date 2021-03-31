@@ -15,7 +15,7 @@
   * [คลิปอธิบายการทดลอง]()
   * [Code 07](https://github.com/bundit-srihin/lab63b/blob/main/lab7/src/main.cpp)
   * [ภาษาของการเขียนโปรแกรมใช้งานArduino Board](https://arduinothing.blogspot.com/2016/04/arduino-cc.html)
-  * [Choompol Boonmee](https://github.com/choompol-boonmee/lab63b.git)
+  * [Choompol Boonmee ตัวอย่างการทดลอง](https://github.com/choompol-boonmee/lab63b.git)
   * [คำสั่ง ESP8266](https://links2004.github.io/Arduino/annotated.html)
   * [การควบคุมผ่านทาง Web Server](https://sites.google.com/site/eplearn/wifi/control_via_web_server)
 ## วิธีการทำการทดลอง
