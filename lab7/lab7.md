@@ -39,6 +39,8 @@ git clone https://github.com/bundit-srihin/lab63b.git
 ```
 const String HtmlTitle = "<h1>ESP8266 WebServer control</h1><br/>\n";
 ```
+![html code](https://user-images.githubusercontent.com/80879119/113110768-a721e000-9231-11eb-9d68-eaf1401a091e.png)
+
 เป็นดังนี้
 ```
 const String HtmlTitle = "<h2>ESP8266 WebServer control</h2><br/>\n";
