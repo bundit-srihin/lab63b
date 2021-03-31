@@ -21,11 +21,14 @@ const String HtmlHtmlClose = "</html>";
 const String HtmlTitle = "<h1>ESP8266 WebServer control</h1><br/>\n";
 const String HtmlCenter = "<center>";
 const String HtmlCloseCenter = "</center>";
+
+//ที่เกี่ยวกับปุ่มลิ้งค์
 const String HtmlButton_ON = "<a href=\"Off\"><button style=\"display: block; background-color: #00FF00;  height: 50px; width: 100px;\">ON</button></a><br/>";
 const String HtmlButton_OFF = "<a href=\"On\"><button style=\"display: block; background-color: #FF0000; height: 50px; width: 100px;\">OFF</button></a><br/>";
 
 String myState, myButtons;
 
+//ฟังก์ชันที่จะเรียกใช้
 void handleRoot(){
 	digitalWrite(2, LOW);
 	Serial.print("READY");
@@ -50,6 +53,7 @@ void handleOff(){
 	response();
 }
 
+//ฟังก์ชันที่ใช้ในการเขียนหน้า Web Server
 void response(){
   String myTEXT = HtmlHtml + HtmlCenter;
 	
@@ -63,6 +67,7 @@ void response(){
 
 }
 
+// Web Server port
 ESP8266WebServer server(80);
 
 int cnt = 0;
@@ -89,9 +94,10 @@ void setup(){
                 Serial.println(WiFi.localIP());
 
                 server.onNotFound([]() {
-			server.send(404, "text/html", "Path Not Found");
+			server.send(404, "text/html", "<h1>Path Not Found !</h1>");
 		});
 
+		// คำสั่งที่ใช้ตรวจสอบ URL
                 server.on("/", handleRoot);
                 server.on("/on", handleOn);
                 server.on("/off", handleOff);
@@ -107,23 +113,24 @@ void setup(){
                 delay(100);
 
                 server.onNotFound([]() {
-                        server.send(404, "text/html", "Path Not Found");
+                        server.send(404, "text/html", "<h1>Path Not Found !</h1>");
                 });
 
+		//คำสั่งมี่ใช้ในการตรวจสอบ URL
                 server.on("/", []() {
                         digitalWrite(2, HIGH);
                         delay(3 * 1000);
                         digitalWrite(2, LOW);
                         delay(3 * 1000);
-                        server.send(200, "text/html", "MY-wifi");
+                        server.send(200, "text/html", "<h1>MY-wifi !</h1>");
                 });
 
-                server.begin();
+                server.begin(); // เปิดการใช้งาน Web Server
                 Serial.println("HTTP server started");      
         }
 }
 
 void loop(){
-	server.handleClient();
+	server.handleClient(); // ตรวจสอบว่ามีคนเรียกหน้าเว็บแล้วหรือยัง
 	
 }
